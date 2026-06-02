@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+</head>
+<body>
+    <p id="number_result"></p>
+    <p id="string_result"></p>
+    <p id="search_result"></p>
+    <p id="replace_result"></p>
+    <script>
+        var x = 30;
+        var y = 45;
+        var str = "Hey, how are doing?";
+        var r = str.search("doing");
+        var txt = str.replace("how are", "how are you");
+        document.getElementById("number_result").innerHTML = x + y;
+        document.getElementById("string_result").innerHTML = String(x) + " " +String(y);
+        document.getElementById("search_result").innerHTML = r;
+        document.getElementById("replace_result").innerHTML =txt;
+        </script>
+</body>
+</html>
