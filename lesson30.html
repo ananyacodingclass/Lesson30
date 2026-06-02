@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript</title>
+</head>
+<body>
+    <p>Multiply every element in the array with 3</p>
+    <p id="product_value"></p>
+    <script>
+        var numbers = [33, 21, 52];
+        function myfunction(num){
+            return num * 3;
+        }
+        var newarray = numbers.map(myfunction);
+        document.getElementById("product_value").innerHTML = newarray;
+    </script>
+</body>
+</html>
